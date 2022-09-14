@@ -1,0 +1,207 @@
+body {
+    font-family: 'poppins';
+}
+
+header{
+    height: 100px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+ul li a{
+    margin: 0;
+    padding: 20px;
+    text-decoration: none;
+    color: #544837;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Images & Logos */
+.jumpingstudents {
+    display: inline;
+    max-width: 605px;
+    height: 496px;
+}
+
+.convobubble {
+    display: inline;
+    max-width: 520px;
+    height: 573px;
+}
+
+.logo-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+}
+
+.item {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item2 {
+    width: 30%;
+}
+
+.item3 {
+    width: 30%;
+}
+.item-text {
+    width: 30%;
+    justify-content: space-around;
+    
+    width: 30%;
+}
+
+/* */
+.content-left {
+    width: 30%;
+}
+
+main h1 p{
+    width: 518px;
+    height: 108px;
+    font-family: 'poppins';
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.content-left1 {
+    width: 35%;
+}
+
+.content-left2 {
+    width: 33%;
+}
+
+
+.content-right1 {
+    width: 30%;
+    display: flex;
+    
+}
+
+.content-mid {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin: 5px;
+    min-height: 70vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-text {
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Buttons */
+.main-btn {
+    width: 175px;
+    height: 53px;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    background: #FF9900;
+
+    font-family: 'poppins';
+    font-style: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.signup-btn {
+    width: 175px;
+    height: 53px;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    background: #FF9900;
+
+    font-family: 'poppins';
+    font-style: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.signin-btn {
+    width: 102px;
+    height: 46px;
+    margin-right: 10px;
+    border: solid;
+    border-radius: 4px;
+    border-color: #94CBF0;
+    background-color: #FFFFFF;
+    
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #173A56;
+}
+
+.mid-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 53px;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    background: #FF9900;
+
+    font-family: 'poppins';
+    font-style: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+footer {
+    height: 100px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
